@@ -2,14 +2,14 @@
 Generate a valid QR code with a dithered background image.
 
 ## Usage
-For options:
-```fish
-cargo run --release -- --help
-```
-
 To install:
 ```fish
-cargo install --path .  # pwd must be this repository
+cargo install dither-qr
+```
+
+For options:
+```fish
+dither-qr --help
 ```
 
 Example:
