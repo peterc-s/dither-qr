@@ -1,7 +1,15 @@
 [package]
 name = "dither-qr"
+description = "A command line tool for generating QR codes with dithered image backgrounds."
 version = "0.1.0"
+readme = "README.md"
+repository = "https://github.com/peterc-s/dither-qr/"
+license-file = "LICENSE"
+keywords = ["cli", "tool", "qr", "dither"]
+categories = ["command-line-utilities"]
+exclude = ["/img"]
 edition = "2021"
+
 
 [dependencies]
 qrcode = "0.14"
